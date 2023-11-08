@@ -1,4 +1,5 @@
---Tableau dashboard: https://public.tableau.com/app/profile/sergey.rakhmanov/viz/PortfolioProject_COVID19_16980776842770/Dashboard1?publish=yes
+--Tableau dashboard: 
+https://public.tableau.com/app/profile/sergey.rakhmanov/viz/PortfolioProject_COVID19_16980776842770/Dashboard1?publish=yes
 
 Select SUM(cast(new_cases as float)) as total_cases, SUM(cast(new_deaths as float)) as total_deaths, SUM(cast(new_deaths as float))/SUM(cast(New_Cases as float))*100 as DeathPercentage
 From PortfolioProject..CovidDeaths_v2
